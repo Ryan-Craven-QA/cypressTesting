@@ -112,7 +112,7 @@ describe('When a user attempts to ', () => {
     // Not sure what requirement in terms of length are being applied to passwords, so no text for max boundary + 1
     // Used cy.reload to reload the page to remove the toast message for proper verification, because without this
     // There may be false passes because the toast message is still visible
-    it('signs up with an invalid passwords', () => {
+    it('signs up with an invalid password', () => {
         // No Password
         SignUp.passwordBox().invoke('prop', 'validationMessage')
             .should('equal', 'Please fill out this field.');

@@ -10,5 +10,8 @@ export default {
     },
     formGroup() {
         return cy.get('.form-group');
+    },
+    signInButton() {
+        return cy.get('[data-testid="regular-login-submit"]');
     }
 }
