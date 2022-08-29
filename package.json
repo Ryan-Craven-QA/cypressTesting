@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Ryan-Craven-QA/cypressTesting#readme",
   "devDependencies": {
-    "cypress": "^10.6.0"
+    "cypress": "^10.6.0",
+    "cypress-file-upload": "^5.0.8"
   }
 }
