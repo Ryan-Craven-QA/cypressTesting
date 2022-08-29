@@ -1,6 +1,4 @@
 import SignUp from "../../../pages/signup.page";
-import CommonPage from "../../../pages/common.page";
-import DownloadPage from "../../../pages/download.page";
 import signupPage from "../../../pages/signup.page";
 
 const validEmail = 'testingemail@gmail.com';
