@@ -16,5 +16,8 @@ export default {
     },
     submitButton() {
         return cy.get('[data-testid="onboarding-submit-about-you-form"]');
+    },
+    signOutButton() {
+        return cy.get('[data-testid="dropdown-link-sign_out"]');
     }
 }

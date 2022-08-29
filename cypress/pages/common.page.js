@@ -4,5 +4,8 @@ export default {
     },
     toastSuccess(message) {
         return cy.contains('.b-toast-success', message);
+    },
+    alertSuccess() {
+        return cy.get('.alert-success');
     }
 }
